@@ -1,0 +1,47 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit1H
+#define Unit1H
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.Dialogs.hpp>
+#include <Vcl.WinXCtrls.hpp>
+#include <Vcl.ComCtrls.hpp>
+#include <Vcl.ExtCtrls.hpp>
+#include <Vcl.Touch.Keyboard.hpp>
+#include <Vcl.WinXPanels.hpp>
+#include <System.Actions.hpp>
+#include <Vcl.ActnList.hpp>
+//---------------------------------------------------------------------------
+class TForm1 : public TForm
+{
+__published:	// IDE-managed Components
+	TButton *Button1;
+	TButton *Button2;
+	TButton *Button3;
+	TButton *Button4;
+	TButton *Button5;
+	TButton *Button6;
+	TButton *Button7;
+	TToggleSwitch *ToggleSwitch1;
+	TButton *Button8;
+	TOpenDialog *OpenDialog1;
+	TSaveDialog *SaveDialog1;
+	TCardPanel *CardPanel1;
+	TCard *Card1;
+	TCard *Card2;
+	TRichEdit *RichEdit1;
+	TTouchKeyboard *TouchKeyboard1;
+	TActionList *ActionList1;
+    TAction *actNextCard;
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm1(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm1 *Form1;
+//---------------------------------------------------------------------------
+#endif
